@@ -20,8 +20,8 @@ locale                   : "en-US"
 title                    : "Data vlog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Hyunji"
-description              : ""
+name                     : #""
+description              : #""
 url                      : "https://github.com/hyunjjin/hyunji.github.io"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,11 +94,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Hyunji"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "데이터 분석/마이닝, 서비스 데이터 고도화, 부동산 데이터 전문"
+  location         : "Seoul"
+  email            : "hyunji351@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

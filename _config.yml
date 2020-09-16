@@ -20,7 +20,7 @@ locale                   : "en-US"
 title                    : "Data vlog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : #""
+name                     : "Hyunji"
 description              : #""
 url                      : "https://github.com/hyunjjin/hyunji.github.io"
 baseurl                  : ""

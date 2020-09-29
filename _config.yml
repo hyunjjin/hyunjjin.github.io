@@ -98,11 +98,11 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "데이터 분석/마이닝, 서비스 데이터 고도화, 부동산 데이터 전문"
   location         : "Seoul"
-  email            : "hyunji351@gmail.com
+  email            : "hyunji351@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "hyunji351@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"

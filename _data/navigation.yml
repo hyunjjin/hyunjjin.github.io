@@ -49,5 +49,6 @@ header:
       # @end locale config
     url: /about.html
     
-  - titles: GitHub
+  - titles: 
+      en: GitHub
     url: https://github.com/hyunjjin

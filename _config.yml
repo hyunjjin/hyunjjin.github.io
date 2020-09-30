@@ -16,8 +16,8 @@
 
 ## => Site Settings
 ##############################
-text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: tomorrow-night-eighties # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+text_skin: orange # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://hyunjjin.github.io
 baseurl : # does not include hostname
 title   : VLOG
@@ -37,7 +37,7 @@ author:
   type      : person # "person" (default), "organization"
   name      : hyunji
   url       :
-  avatar    : # path or url of avatar image (square)
+  avatar    : https://avatars2.githubusercontent.com/u/45170898?s=460&u=fa1b97e15d4927b1bea32afb4d85e6e77d32d3a5&v=4  # path or url of avatar image (square)
   bio       : 
   email     : hyunji351@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name

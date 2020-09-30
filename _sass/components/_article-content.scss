@@ -205,13 +205,17 @@
   table {
     display: block;
     width: 100%;
+    height: 240px;
+    overflow: auto;
+    font-size: 10px;
+    text-align: center;
     border-collapse: collapse;
     @include overflow(auto);
     thead, tfoot {
       background-color: $text-background-color;
     }
     th, td {
-      padding: map-get($spacers, 2);
+      padding: 4px; //map-get($spacers, 2)
       border: 1px solid $border-color-l;
     }
     th {

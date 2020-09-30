@@ -27,7 +27,7 @@ description: > # this means to ignore newlines until "Language & timezone"
 
 ## => Language and Timezone
 ##############################
-lang: ko # the language of your site, default as "en"
+lang:  # the language of your site, default as "en"
 timezone: Asia/Seoul # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
@@ -62,10 +62,10 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root    : /archive.html # title link url, "/" (default)
-  home    : /archive.html # home layout url, "/" (default)
+  root    : /home.html # title link url, "/" (default)
+  home    : /home.html # home layout url, "/" (default)
   archive : # "/archive.html" (default)
-  rss     : # "/feed.xml" (default)
+#  rss     : # "/feed.xml" (default)
 
 
 ## => Post

@@ -6,16 +6,16 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl:  '/'
+baseurl:  ""
 url: "https://hyunjjin.github.io/"
 
 # Website info
 title: "VLOG"
 description: "..."
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
+cover: #assets/images/blog-cover.jpg
+logo: #assets/images/blog-icon.png
+logo_dark: #assets/images/favicon.png
+favicon: #assets/images/favicon.png
 CNAME: #add cname for website to be created
 
 # Social info
@@ -68,8 +68,8 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: jekyller
-repo: jasper2
+username: hyunji
+repo: hyunjjin.github.io
 branch: master
 relative_source: ../jasper2/
 destination: ../jasper2-pages/

@@ -1,5 +1,5 @@
 ---
-title: Python - Selenium으로 크롤링하기
+title: Python] Selenium으로 크롤링하기
 tags: python
 ---
 

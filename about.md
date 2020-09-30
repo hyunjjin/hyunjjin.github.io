@@ -26,6 +26,4 @@ titles:
 key: page-about
 ---
 
-## VLOG
-### - Hyunji
-### - This is my cheat sheet.
+### cheat sheet

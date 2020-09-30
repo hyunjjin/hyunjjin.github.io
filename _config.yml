@@ -7,11 +7,11 @@ words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl:  #/jasper2/
-url: "https://hyunjjin.github.io/"
+#url: "https://hyunjjin.github.io/"
 
 # Website info
-title: Ghost
-description: The professional publishing platform
+title: "VLOG"
+description: "..."
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png

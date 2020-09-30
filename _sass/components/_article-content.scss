@@ -112,6 +112,7 @@
     &::before {
       display: block;
       padding: map-get($spacers, 2) map-get($spacers, 3) map-get($spacers, 2) 0;
+      font-size: 10px;
       font-weight: map-get($base, font-weight-bold);
       color: $decorate-color;
       text-align: right;

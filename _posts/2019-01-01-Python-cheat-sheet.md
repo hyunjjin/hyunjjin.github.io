@@ -22,7 +22,7 @@ print(sys.maxsize)
 !cat /proc/meminfo | grep Mem
 ```
 
-## create folder
+## - create folder
 ```
 import os
 def createfolder(dir):
@@ -52,8 +52,7 @@ datetime.datetime.now(timezone('Asia/Seoul')).strftime('%y%m%d')
 -----
 # string
 
-## - fuzzywuzzy
->- 문자간 비슷한 정도, 확률 구하기
+## - fuzzywuzzy; 문자간 비슷한 정도, 확률 구하기
 ```
 pip install fuzzywuzzy
 pip install python-Levenshtein

@@ -74,13 +74,13 @@ fuzz.WRatio(one, two)
 -----
 # group by
 
-## ave(x,y,FUN=length)
+## - ave(x,y,FUN=length)
 ```
 apt_info['num'] = apt_info.groupby('pnu')['pnu'].transform('count')
 apt_info['num'] = apt_info[['kaptCode','pnu']].groupby(['pnu']).agg(['count'])
 df.groupby(['col1', 'col2']).size().reset_index(name='counts', drop=True)
 ```
-## ave(x,y,FUN=seq_along)
+## - ave(x,y,FUN=seq_along)
 ```
 apt['num'] = apt.groupby('PK').cumcount().add(1)
 ```
@@ -90,7 +90,7 @@ apt['num'] = apt.groupby('PK').cumcount().add(1)
 -----
 # calculate
 
-## truncate(버림)
+## - truncate(버림)
 ```
 import math
 def truncate(number, decimals=0):
@@ -108,7 +108,7 @@ def truncate(number, decimals=0):
     return math.trunc(number * factor) / factor
 ```
 
-## round up
+## - round up
 ```
 def round_up(number, decimals=0):
     multiplier = 10 ** decimals
@@ -120,7 +120,7 @@ def round_up(number, decimals=0):
 -----
 # graph
 
-## pivot table
+## - pivot table
 ```
 pd.pivot_table(data, index='', values='', aggfunc=['',''])
 ```

@@ -1,3 +1,9 @@
+---
+title: Data Analysis - DS school 데이터 분석
+tags: python data_analysis
+---
+
+
 # DS School 데이터 분석
 
 

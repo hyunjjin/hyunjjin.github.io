@@ -2609,11 +2609,11 @@ table2.plot(kind='bar', legend=False)
 
 
 
-![png](Level3_DS%20School_files/Level3_DS%20School_38_1.png)
+![png](/images/Level3_DS%20School_files/Level3_DS%20School_38_1.png)
 
 
 
-![png](Level3_DS%20School_files/Level3_DS%20School_38_2.png)
+![png](/images/Level3_DS%20School_files/Level3_DS%20School_38_2.png)
 
 
 모든 설문조사 결과와 결제한 사람들의 설문조사 결과는 상당히 비슷한 양상을 보입니다. 그런데, 1번 질문의 5번 응답 '최신 데이터사이언스 트렌드에 관심이 있어서' 응답을 한 경우는 결제율이 낮다는 것을 알 수 있습니다.
@@ -2774,7 +2774,7 @@ sns.distplot(series['time_day'], hist=False, kde_kws={'cumulative' : True})
 
 
 
-![png](Level3_DS%20School_files/Level3_DS%20School_43_1.png)
+![png](/images/Level3_DS%20School_files/Level3_DS%20School_43_1.png)
 
 
 위의 분포를 통해 결제를 한 사람들 중 80% 이상이 10일 이내 결제, 그리고 나머지 20%는 훨씬 많은 고민을 한다는 것을 파악할 수 있습니다. 이를 통해 DS School에 관심을 가졌지만 아직 결제를 하지 않은 잠재고객들의 결제 가능성을 역으로 추정해 리타겟팅 전략의 예산 분배를 진행할 수 있습니다.

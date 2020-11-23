@@ -1,6 +1,6 @@
 ---
 title: Python - Folium으로 지도 시각화
-tags: python, map
+tags: python map
 ---
 
 

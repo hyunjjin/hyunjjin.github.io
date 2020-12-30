@@ -22,6 +22,10 @@ print(sys.maxsize)
 !cat /proc/meminfo | grep Mem
 ```
 
+## - get file from s3(s3fs error occured)
+```!pip install fsspec==0.6.2```
+
+
 ## - create folder
 ```
 import os

@@ -69,6 +69,11 @@ process.extractOne(query, [word1, word2])
 fuzz.WRatio(one, two)
 ```
 
+## - explode
+```
+data.assign(var = data['want_to_split_column'].str.split(',')).explode('var')
+```
+
 
 
 -----

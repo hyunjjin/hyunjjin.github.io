@@ -1,3 +1,9 @@
+---
+title: Data Analysis - zigzag 데이터 분석
+tags: python data_analysis
+---
+
+
 # zigzag 데이터 분석
 
 

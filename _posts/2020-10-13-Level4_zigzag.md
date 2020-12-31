@@ -300,9 +300,8 @@ sns.barplot(data=top, x=top.index, y='sum', order=top.index)
 
 
     
-![png](Level4_zigzag_files/Level4_zigzag_8_1.png)
+![png](/images/Level4_zigzag_files/Level4_zigzag_8_1.png)
     
-
 
 ## 4. 시간대별 지그재그 매출을 구하려고 합니다. lineplot을 이용하여 6월 11일의 시간대별 매출을 시각화 해주세요.
 
@@ -327,7 +326,7 @@ sns.lineplot(data=order, x='timestamp', y='price')
 
 
     
-![png](Level4_zigzag_files/Level4_zigzag_10_1.png)
+![png](/images/Level4_zigzag_files/Level4_zigzag_10_1.png)
     
 
 
@@ -488,7 +487,7 @@ sns.lineplot(data=time_price, x=time_price.index, y='price')
 
 
     
-![png](Level4_zigzag_files/Level4_zigzag_13_1.png)
+![png](/images/Level4_zigzag_files/Level4_zigzag_13_1.png)
     
 
 
@@ -507,7 +506,7 @@ sns.pointplot(data=time_price, x=time_price.index, y='price')
 
 
     
-![png](Level4_zigzag_files/Level4_zigzag_14_1.png)
+![png](/images/Level4_zigzag_files/Level4_zigzag_14_1.png)
     
 
 
@@ -720,7 +719,7 @@ sns.violinplot(data=order2[order2['age'] != -1], x='shop_id', y='age', ax=axes[1
 
 
     
-![png](Level4_zigzag_files/Level4_zigzag_20_1.png)
+![png](/images/Level4_zigzag_files/Level4_zigzag_20_1.png)
     
 
 
@@ -1625,7 +1624,7 @@ sns.distplot(merged[merged[top_style[2]] == True]['age_x'], hist=False, label=to
 
 
     
-![png](Level4_zigzag_files/Level4_zigzag_33_1.png)
+![png](/images/Level4_zigzag_files/Level4_zigzag_33_1.png)
     
 
 
@@ -3801,7 +3800,7 @@ print('비구매 cycle 잔존 시간 평균: ', remaining_time_cycle_npurchase.c
 
 
     
-![png](Level4_zigzag_files/Level4_zigzag_67_0.png)
+![png](/images/Level4_zigzag_files/Level4_zigzag_67_0.png)
     
 
 

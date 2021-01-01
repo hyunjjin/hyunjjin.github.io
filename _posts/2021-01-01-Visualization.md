@@ -1,3 +1,8 @@
+---
+title: Python - seaborn
+tags: python visualization seaborn
+---
+
 ## seaborn
 
 

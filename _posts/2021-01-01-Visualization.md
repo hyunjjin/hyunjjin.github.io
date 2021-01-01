@@ -224,7 +224,7 @@ sns.countplot(data=data, x='성별코드')
 
 
     
-![png](visualization_files/visualization_4_1.png)
+![png](/images/visualization_files/visualization_4_1.png)
     
 
 
@@ -247,7 +247,7 @@ sns.countplot(data=data, x='시도코드')
 
 
     
-![png](visualization_files/visualization_5_1.png)
+![png](/images/visualization_files/visualization_5_1.png)
     
 
 
@@ -270,7 +270,7 @@ sns.countplot(data=data, x='시도코드', ax=ax2)
 
 
     
-![png](visualization_files/visualization_6_1.png)
+![png](/images/visualization_files/visualization_6_1.png)
     
 
 
@@ -285,7 +285,7 @@ figure, axes = plt.subplots(nrows=3, ncols=10)
 
 
     
-![png](visualization_files/visualization_7_0.png)
+![png](/images/visualization_files/visualization_7_0.png)
     
 
 
@@ -307,7 +307,7 @@ sns.countplot(data=data, x='시도코드', color='b')
 
 
     
-![png](visualization_files/visualization_8_1.png)
+![png](/images/visualization_files/visualization_8_1.png)
     
 
 
@@ -320,7 +320,7 @@ sns.palplot(palette)
 
 
     
-![png](visualization_files/visualization_9_0.png)
+![png](/images/visualization_files/visualization_9_0.png)
     
 
 
@@ -338,7 +338,7 @@ sns.countplot(data=data, x='시도코드', palette='coolwarm')
 
 
     
-![png](visualization_files/visualization_10_1.png)
+![png](/images/visualization_files/visualization_10_1.png)
     
 
 
@@ -359,7 +359,7 @@ sns.countplot(data=data, x='시도코드', hue='성별코드')
 
 
     
-![png](visualization_files/visualization_11_1.png)
+![png](/images/visualization_files/visualization_11_1.png)
     
 
 
@@ -379,7 +379,7 @@ sns.displot(data['허리둘레'], kde=True)
 
 
     
-![png](visualization_files/visualization_12_1.png)
+![png](/images/visualization_files/visualization_12_1.png)
     
 
 
@@ -397,7 +397,7 @@ sns.displot(data['허리둘레'], kind='kde')
 
 
     
-![png](visualization_files/visualization_13_1.png)
+![png](/images/visualization_files/visualization_13_1.png)
     
 
 
@@ -415,7 +415,7 @@ sns.displot(data['허리둘레'])
 
 
     
-![png](visualization_files/visualization_14_1.png)
+![png](/images/visualization_files/visualization_14_1.png)
     
 
 
@@ -442,7 +442,7 @@ sns.displot(data, x='허리둘레', hue='흡연상태', kind='kde')
 
 
     
-![png](visualization_files/visualization_15_1.png)
+![png](/images/visualization_files/visualization_15_1.png)
     
 
 
@@ -463,7 +463,7 @@ sns.barplot(data=data, x='연령대코드(5세단위)', y='수축기혈압')
 
 
     
-![png](visualization_files/visualization_16_1.png)
+![png](/images/visualization_files/visualization_16_1.png)
     
 
 
@@ -484,7 +484,7 @@ sns.barplot(data=data, x='연령대코드(5세단위)', y='수축기혈압', est
 
 
     
-![png](visualization_files/visualization_17_1.png)
+![png](/images/visualization_files/visualization_17_1.png)
     
 
 
@@ -503,7 +503,7 @@ sns.barplot(data=data, x='연령대코드(5세단위)', y='수축기혈압', hue
 
 
     
-![png](visualization_files/visualization_18_1.png)
+![png](/images/visualization_files/visualization_18_1.png)
     
 
 
@@ -524,7 +524,7 @@ sns.boxplot(data=data, x='연령대코드(5세단위)', y='수축기혈압')
 
 
     
-![png](visualization_files/visualization_19_1.png)
+![png](/images/visualization_files/visualization_19_1.png)
     
 
 
@@ -545,7 +545,7 @@ sns.violinplot(data=data, x='연령대코드(5세단위)', y='수축기혈압')
 
 
     
-![png](visualization_files/visualization_20_1.png)
+![png](/images/visualization_files/visualization_20_1.png)
     
 
 
@@ -564,7 +564,7 @@ sns.violinplot(data=data, x='연령대코드(5세단위)', y='수축기혈압', 
 
 
     
-![png](visualization_files/visualization_21_1.png)
+![png](/images/visualization_files/visualization_21_1.png)
     
 
 
@@ -585,7 +585,7 @@ sns.pointplot(data=data, x='연령대코드(5세단위)', y='수축기혈압')
 
 
     
-![png](visualization_files/visualization_22_1.png)
+![png](/images/visualization_files/visualization_22_1.png)
     
 
 
@@ -605,7 +605,7 @@ sns.pointplot(data=data, x='연령대코드(5세단위)', y='수축기혈압', h
 
 
     
-![png](visualization_files/visualization_23_1.png)
+![png](/images/visualization_files/visualization_23_1.png)
     
 
 
@@ -625,7 +625,7 @@ sns.scatterplot(data=data, x='식전혈당(공복혈당)', y='수축기혈압')
 
 
     
-![png](visualization_files/visualization_24_1.png)
+![png](/images/visualization_files/visualization_24_1.png)
     
 
 
@@ -645,6 +645,6 @@ sns.scatterplot(data=data[data['식전혈당(공복혈당)'] < 150],
 
 
     
-![png](visualization_files/visualization_25_1.png)
+![png](/images/visualization_files/visualization_25_1.png)
     
 

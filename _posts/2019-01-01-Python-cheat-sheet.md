@@ -6,6 +6,15 @@ tags: python cheat_sheet
 
 
 -----
+## - when error occured
+```
+!pip3 install --upgrade pip
+!pip3 install pymysql==0.10.1 --user
+!pip3 install fsspec==0.6.2 --user
+!pip3 install bocore==1.19.40 --user
+```
+
+
 # environment  
 
 ## - jupyter notebook cell width
@@ -21,9 +30,6 @@ print(sys.maxsize)
 
 !cat /proc/meminfo | grep Mem
 ```
-
-## - get file from s3(s3fs error occured)
-```!pip install fsspec==0.6.2```
 
 
 ## - create folder

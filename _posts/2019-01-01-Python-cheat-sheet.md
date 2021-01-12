@@ -5,6 +5,8 @@ tags: python cheat_sheet
 
 
 
+# environment  
+
 -----
 ## - when error occured
 ```
@@ -13,9 +15,6 @@ tags: python cheat_sheet
 !pip3 install fsspec==0.6.2 --user
 !pip3 install bocore==1.19.40 --user
 ```
-
-
-# environment  
 
 ## - jupyter notebook cell width
 ```
